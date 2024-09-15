@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Snake</h1>
+    <div>
+        <div>
+            <h2>How to play</h2>
+            <p>Welcome!</p>
+            <p>Press the key direction buttons on your keyboard to change the <span style="color: blue;">snakes</span> direction of movement.</p>
+            <p>When the <span style="color: blue;">snake</span> eats the <span style="color: green;">food</span>, it will grow 1 <span style="color: blue;">body part segment</span> and you will receive 1 point.</p>
+            <p>Colliding with the <span style="color: rgb(182, 108, 11);">walls</span> or the <span style="color: blue;">snakes body</span> will result in the game to be over.</p>
+            <p>Each 7 points gained will allow you to move up 1 level, were the <span style="color: blue;">snake</span> will move faster.</p>
+            <p>The maximum level is 7.</p>
+            <p>Have fun!</p>
+        </div>
+        <canvas id="board" width="400" height="400"></canvas>
+        <div id="scr">
+            <h2>Score:</h2>
+            <div id="scoreTxt">0</div>
+        </div>
+        <button id="resetButton">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: honeydew;
+}
+h1{
+    font-size: 60px;
+    color: purple;
+}
+#board{
+    border: 4px solid;
+    border-color: rgb(182, 108, 11);
+}
+#scr{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-size: 40px;
+    margin-right: 15px;
+    color: purple;
+}
+#scoreTxt{
+    font-size: 80px;
+    color: purple;
+}
+#resetButton{
+    font-size: 30px;
+    font-style: oblique;
+    color: purple;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(174, 223, 77);
+    border: 3px solid;
+    border-color: rgb(182, 108, 11);
+    border-radius: 10px;
+    cursor: pointer;
+}
